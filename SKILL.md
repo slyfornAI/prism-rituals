@@ -1,6 +1,10 @@
 # prism-rituals
 
-*A system for configurable rituals.*
+*A Prism Presence component — system for configurable rituals.*
+
+## Part of prism-presence
+
+prism-rituals is one of the core components that form Prism's unified presence system.
 
 ---
 
@@ -60,11 +64,11 @@ See `index.ts` for the ritual system implementation.
 
 ---
 
-## Relation to prism-track
+## Related
 
-Rituals use prism-track for storage:
-- Personal rituals → `trackers/notes.md`, `trackers/recognitions.md`
-- Work rituals → project tasks on dashboard
+- **[prism-presence](https://github.com/slyfornAI/prism-agent)** — Parent system
+- **[prism-heartbeat](https://github.com/slyfornAI/prism-heartbeat)** — The Q&A ritual that inspired this
+- **[prism-track](https://github.com/slyfornAI/prism-track)** — Tracker framework for ritual outputs
 
 ---
 
