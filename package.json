@@ -1,0 +1,11 @@
+{
+  "name": "prism-rituals",
+  "version": "0.0.1",
+  "description": "Prism Presence component — system for configurable rituals",
+  "keywords": ["pi", "extension", "prism", "rituals", "prism-presence"],
+  "main": "index.ts",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
